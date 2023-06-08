@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="343dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="501dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="PARSING XML AND JSON"
+        android:textColor="#FA1100"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnxml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="211dp"
+        android:layout_marginRight="211dp"
+        android:layout_marginBottom="411dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Parse XML Data" />
+
+    <Button
+        android:id="@+id/btnjson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="411dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Parse JSON Data" />
+
+    <TextView
+        android:id="@+id/xmltxt"
+        android:layout_width="175dp"
+        android:layout_height="325dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="216dp"
+        android:layout_marginRight="216dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/jsontxt"
+        android:layout_width="181dp"
+        android:layout_height="322dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="49dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="" />
+</RelativeLayout>

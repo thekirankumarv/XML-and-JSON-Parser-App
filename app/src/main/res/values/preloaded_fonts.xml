@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abril_fatface</item>
+        <item>@font/aclonica</item>
+        <item>@font/adamina</item>
+        <item>@font/aladin</item>
+        <item>@font/alata</item>
+        <item>@font/atomic_age</item>
+    </array>
+</resources>
